@@ -1,21 +1,28 @@
-# ElixirTraining
+# Elixir training
 
-**TODO: Add description**
+## Installing Elixir 
+Follow the instructions described in [here](http://elixir-lang.github.io/install.html)
 
-## Installation
+## Mix 
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `elixir_training` to your list of dependencies in `mix.exs`:
+More documentation in [here](https://elixirschool.com/en/lessons/basics/mix/)
 
-```elixir
-def deps do
-  [
-    {:elixir_training, "~> 0.1.0"}
-  ]
-end
+### Interactive
+```
+$ iex -S mix
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/elixir_training](https://hexdocs.pm/elixir_training).
+### Compilation
+```
+$ mix compile
+```
+
+### Tests
+```
+$ mix test
+```
+
+## More documentation
+* http://elixir-lang.github.io/
+* https://elixirschool.com/en/
 
